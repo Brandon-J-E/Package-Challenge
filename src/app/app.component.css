@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(12, 12, 12) 0%, 5%;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.file-label {
+  margin-right: 10px;
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+}
+
+.file-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+}
+
+.submit-button {
+  display: inline-block;
+  padding: 10px 16px;
+  margin-left: 8px;
+  font-size: 18px;
+  background-color: rgb(99, 98, 98);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: rgb(24, 24, 24);
+}
+
+.message-group {
+  display: flex;
+  align-items: center;
+}
+
+.error-message,
+.selected-file-message {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.error-message {
+  color: rgb(211, 31, 31);
+}
+
+.selected-file-message {
+  color: rgb(6, 165, 54);
+}
+
+.output-heading {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: rgb(51, 51, 51);
+}
+
+.output-data {
+  white-space: pre-wrap;
+}
+
+.remove-file-button {
+  display: inline-block;
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: rgb(198, 40, 40);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-left: 9px;
+}
+
+#title {
+  font-size: 32px;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+}
+
+#output-box {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgb(238, 238, 238);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
